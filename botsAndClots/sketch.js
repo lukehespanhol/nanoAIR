@@ -4,6 +4,8 @@
 		User 'soanvig', answer posted on Jul 20 '17 at 18:23 at:
 		https://stackoverflow.com/questions/16348031/disable-scrolling-when-touch-moving-certain-element 
 */
+var HOST = self.location;
+
 document.addEventListener('touchstart', function(e) {
     document.documentElement.style.overflow = 'hidden';
 });
@@ -64,7 +66,7 @@ let numTilesy;
 
 function preload() {
 	for (var i = 0; i < NUM_IMAGES; i++) {
-		let img = loadImage("./images/screen-00" + i + ".png");
+		let img = loadImage(HOST + "/images/screen-00" + i + ".png");
 		clotImages[i] = img;
 	}
 }
