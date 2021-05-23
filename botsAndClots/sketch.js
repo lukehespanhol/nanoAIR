@@ -64,7 +64,7 @@ let numTilesy;
 
 function preload() {
 	for (var i = 0; i < NUM_IMAGES; i++) {
-		let img = loadImage("/images/screen-00" + i + ".png");
+		let img = loadImage("./images/screen-00" + i + ".png");
 		clotImages[i] = img;
 	}
 }
