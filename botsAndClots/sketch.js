@@ -25,7 +25,7 @@ class Tile {
 		this.x = x;
 		this.y = y;
 		this.z = z;
-		this.imgIndex = 10;
+		this.imgIndex = 0;
 	}
 
 	reset() {
@@ -42,7 +42,6 @@ class Tile {
 		translate(this.x, this.y, this.z);
 		let imgId = round(((frameCount*0.03)+15*this.id+NUM_IMAGES))%NUM_IMAGES;
 		let img = clotImages[imgId];
-		//let img = clotImages[this.imgIndex];
 		tint((cos(frameCount*0.001 + 38*this.id))*255, 0, 255, abs(sin(frameCount*0.02 + 15*this.id))*255);
 		image(img, 0, 0, TILE_WH, TILE_WH);
 		pop();
