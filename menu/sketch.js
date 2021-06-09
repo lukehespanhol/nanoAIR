@@ -29,19 +29,19 @@ let linkSmoothRolling;
 function setup() {
  	createCanvas(windowWidth, windowHeight, WEBGL);
 
-	linkBotsAndClots = createA(HOST + "/botsAndClots", "Bots and Clots", "_blank");      
+	linkBotsAndClots = createA(HOST + "/botsAndClots/", "Bots and Clots", "_blank");      
 	linkBotsAndClots.position(120, 80);
 
-	linkEmergence = createA(HOST + "/emergence", "Emergence", "_blank");      
+	linkEmergence = createA(HOST + "/emergence/", "Emergence", "_blank");      
 	linkEmergence.position(120, 120);
 
-	linkNanobotrace = createA(HOST + "/nanobotrace", "Nanobot Race", "_blank");
+	linkNanobotrace = createA(HOST + "/nanobotrace/", "Nanobot Race", "_blank");
 	linkNanobotrace.position(120, 160);
 
-	linkRolling = createA(HOST + "/rolling", "Rolling", "_blank");      
+	linkRolling = createA(HOST + "/rolling/", "Rolling", "_blank");      
 	linkRolling.position(120, 200);
 
-	linkSmoothRolling = createA(HOST + "/smoothRolling", "Smooth Rolling", "_blank");      
+	linkSmoothRolling = createA(HOST + "/smoothRolling/", "Smooth Rolling", "_blank");      
 	linkSmoothRolling.position(120, 240);
 }
 
