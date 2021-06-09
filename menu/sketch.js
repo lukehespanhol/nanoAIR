@@ -4,7 +4,7 @@
 		User 'soanvig', answer posted on Jul 20 '17 at 18:23 at:
 		https://stackoverflow.com/questions/16348031/disable-scrolling-when-touch-moving-certain-element 
 */
-var HOST = window.location.origin;
+var HOST = window.location.origin + '/nanoAIR';
 
 document.addEventListener('touchstart', function(e) {
     document.documentElement.style.overflow = 'hidden';
