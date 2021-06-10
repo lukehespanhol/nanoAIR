@@ -38,7 +38,7 @@ function setup() {
 	linkNanobotrace = createA(HOST + "/nanobotrace/", "Nanobot Race", "_blank");
 	linkNanobotrace.position(120, 160);
 
-	linkRolling = createA(HOST + "/rolling/", "Rolling", "_blank");      
+	linkRolling = createA(HOST + "/rolling/", "Leukocyte Rolling", "_blank");      
 	linkRolling.position(120, 200);
 
 	linkSmoothRolling = createA(HOST + "/smoothRolling/", "Smooth Rolling", "_blank");      
